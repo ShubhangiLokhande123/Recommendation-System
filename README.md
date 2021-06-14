@@ -2,7 +2,9 @@
 ## Real world/Business Objectives and constraints 
 ## Objectives:
 Predict the rating that a user would give to a movie that he has not yet rated.
+
 Minimize the difference between predicted and actual rating (RMSE and MAPE) 
+
 ## Constraints:
 Some form of interpretability.
 There is no low latency requirement as the recommended movies can be precomputed earlier.
